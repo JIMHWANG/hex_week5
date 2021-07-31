@@ -1,23 +1,9 @@
-$color: #00cc99;
+@import "variables"; //變數
+@import "reset"; //css reset
+@import "base"; //全站樣式
+@import "utility"; //工具類
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
-
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+@import "layout/menuBar"; //layout 整個區塊
+@import "layout/mainLogo"; //layout logo
+@import "layout/optionList"; //layout 選單
+@import "layout/menuUser"; //layout user info

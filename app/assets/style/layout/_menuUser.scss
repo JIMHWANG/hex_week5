@@ -1,0 +1,26 @@
+.menu-user{
+    width: inherit;
+    margin-top: 363px;
+    margin-left: 32px;
+    a{
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 24px;
+        }
+    }
+    .name-mail{
+        margin-left: 16px;
+        height: inherit;
+        .username{
+            color: $font-black-color;
+            line-height: 1.18;
+            font-weight: bold;
+        }
+        .usermail{
+            font-size: $fz-s-size;
+            color: $font-gray-color;
+            margin-top: 4px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.optionList{
+    margin-top: 40px;
+    width: inherit;
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 260px;
+        li{
+            a{
+                padding-left: 32px;
+                width: inherit;
+                color: $font-black-color;              
+            }
+            a:hover{
+                border-left: 4px solid $a-hover-green;
+                color: $a-hover-green;
+                font-weight: bold;
+            }
+        }
+    }
+}
