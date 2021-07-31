@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Lato', 'Roboto Mono', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top; }
+
+.menu-bar {
+  width: 296px;
+  max-width: 296px;
+  background-color: #F8F9FA;
+  padding: 32px 113px 32px 0px; }
+
+.main-logo h1 {
+  margin-left: 32px; }
+  .main-logo h1 a {
+    width: 153px;
+    height: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 50px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg); }
+
+.optionList {
+  margin-top: 40px;
+  width: inherit; }
+  .optionList ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 260px; }
+    .optionList ul li a {
+      padding-left: 32px;
+      width: inherit;
+      color: #000; }
+    .optionList ul li a:hover {
+      border-left: 4px solid #198754;
+      color: #198754;
+      font-weight: bold; }
+
+.menu-user {
+  width: inherit;
+  margin-top: 363px;
+  margin-left: 32px; }
+  .menu-user a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 24px; }
+  .menu-user .name-mail {
+    margin-left: 16px;
+    height: inherit; }
+    .menu-user .name-mail .username {
+      color: #000;
+      line-height: 1.18;
+      font-weight: bold; }
+    .menu-user .name-mail .usermail {
+      font-size: 14px;
+      color: #6C757D;
+      margin-top: 4px; }
+
+/*# sourceMappingURL=all.css.map */
