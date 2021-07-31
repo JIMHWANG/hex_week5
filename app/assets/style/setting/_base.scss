@@ -1,0 +1,30 @@
+body{
+    font-family: 'Lato', 'Roboto Mono', sans-serif;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align:top
+}
+
+h2{
+    font-size: $fz-md-size;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+h3{
+    font-size: $fz-h3-size;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+h5{
+    font-weight: bold;
+}
