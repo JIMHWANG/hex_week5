@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Required meta tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Admin
+  </title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="menu-bar">
+    <div class="main-logo">
+      <h1><a href="index.html">Answer</a></h1>
+    </div>
+    <nav class="optionList">
+      <ul>
+        <li>
+          <a href="#" class="d-flex align-items-center">
+            <span class="material-icons me-2">
+              home
+            </span>
+            <p>Dashboard</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-flex align-items-center">
+            <span class="material-icons me-2">
+              question_answer
+            </span>
+            <p>Question</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-flex align-items-center">
+            <span class="material-icons me-2">
+              assignment
+            </span>
+            <p>Assignment</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-flex align-items-center">
+            <span class="material-icons me-2">
+              video_library
+            </span>
+            <p>Course</p>
+          </a>
+        </li>
+        <li>
+          <a href="admin.html" class="d-flex align-items-center">
+            <span class="material-icons me-2">
+              people_alt
+            </span>
+            <p>Admin</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-flex align-items-center">
+            <span class="material-icons me-2">
+              settings
+            </span>
+            <p>Settings</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="menu-user d-flex align-items-center">
+      <a href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true"
+          alt="User logo"></a>
+      <div class="name-mail">
+        <a href="#" class="username d-block">Andy Chen</a>
+        <a href="#" class="usermail d-block">andy0401@mail.com</a>
+      </div>
+    </div>
+  </div>
+  <div class="pages">
+    
+<div class="header d-flex">
+    <h2>Admin</h2>
+    <a href="#" class="add-admin d-flex align-items-center">
+        <span class="material-icons" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            add
+        </span>
+        <p class="font-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Add New Admin</p>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title h2" id="exampleModalLabel">New Admin</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>Account</h3>
+                        <div>
+                            <label for="name" class="d-block">
+                                Name
+                            </label>
+                            <input type="text" id="name">
+                        </div>
+                        <div>
+                            <label for="email" class="d-block">
+                                Email
+                            </label>
+                            <input type="email" id="email">
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <h3>Verification</h3>
+                        <div class="verify-result d-flex align-items-center">
+                            <span class="material-icons">
+                                warning
+                            </span>
+                            <span class="font-bold">
+                                Unverified
+                            </span>
+                        </div>
+                        <input class="verify-btn" type="button" value="Send Verification Mail">
+                    </div>
+                    <div class="modal-body">
+                        <h3>Access Level</h3>
+                        <select name="level" id="">
+                            <option value="" disabled selected>-Choose access level-</option>
+                            <option value="1">Level1</option>
+                            <option value="2">Level2</option>
+                            <option value="3">Level3</option>
+                        </select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light cancel-btn" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-success success-btn">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+    </a>
+
+    <span class="material-icons">
+        search
+    </span>
+    <span class="material-icons">
+        notifications_active
+    </span>
+</div>
+  </div>
+
+  <!-- <footer class="footer">
+      footer
+    </footer> -->
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
