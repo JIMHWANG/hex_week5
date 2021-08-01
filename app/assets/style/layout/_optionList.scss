@@ -1,14 +1,10 @@
 .optionList{
-    margin-top: 40px;
     width: inherit;
+    height: 77%;
     ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
         height: 260px;
         li{
-            a{
-                padding-left: 32px;
+            a{                
                 width: inherit;
                 color: $font-black-color;              
             }
