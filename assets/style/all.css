@@ -220,31 +220,47 @@ h5 {
         padding: 4px 8px; }
 
 .header .add-admin {
-  min-width: 87%;
-  color: #000; }
-  .header .add-admin .material-icons {
-    color: #198754; }
-  .header .add-admin p {
-    white-space: nowrap; }
-  .header .add-admin .modal .modal-content .modal-body div label {
-    font-size: 14px;
-    margin-bottom: 4px; }
-  .header .add-admin .modal .modal-content .modal-body div input {
-    width: 460px;
-    height: 51px;
-    margin-bottom: 16px; }
-  .header .add-admin .modal .modal-content .modal-body .verify-result .material-icons {
-    color: red; }
-  .header .add-admin .modal .modal-content .modal-body .verify-btn {
-    background-color: transparent;
-    color: #198754;
-    padding: 16px 151px; }
-  .header .add-admin .modal .modal-content .modal-body select {
-    width: 460px;
-    height: 51px;
-    color: #6C757D; }
+  min-width: 87%; }
+  .header .add-admin a {
+    color: #000; }
+    .header .add-admin a .material-icons {
+      color: #198754; }
+    .header .add-admin a p {
+      white-space: nowrap; }
+    .header .add-admin a .modal .modal-content .modal-body div label {
+      font-size: 14px;
+      margin-bottom: 4px; }
+    .header .add-admin a .modal .modal-content .modal-body div input {
+      width: 460px;
+      height: 51px;
+      margin-bottom: 16px; }
+    .header .add-admin a .modal .modal-content .modal-body .verify-result .material-icons {
+      color: red; }
+    .header .add-admin a .modal .modal-content .modal-body .verify-btn {
+      background-color: transparent;
+      color: #198754;
+      padding: 16px 151px; }
+    .header .add-admin a .modal .modal-content .modal-body select {
+      width: 460px;
+      height: 51px;
+      color: #6C757D; }
+  .header .add-admin .admin-search-input {
+    -webkit-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+    width: 0px;
+    border: none;
+    padding: 4px; }
+  .header .add-admin .active {
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 200px; }
 
 .header .admin-header-icon {
   max-width: 6%; }
+  .header .admin-header-icon a {
+    color: #000; }
+  .header .admin-header-icon .ding:hover {
+    color: red; }
 
 /*# sourceMappingURL=all.css.map */
