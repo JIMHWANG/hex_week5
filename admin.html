@@ -84,9 +84,9 @@
   </div>
   <div class="pages">
     
-<div class="header mgb-48 d-flex">
+<div class="header mgb-48 d-flex justify-content-between">
     <h2>Admin</h2>
-    <a href="#" class="add-admin d-flex align-items-center">
+    <a href="#" class="add-admin mgl-47 d-flex align-items-center">
         <span class="material-icons" data-bs-toggle="modal" data-bs-target="#NewAdmin">
             add
         </span>
@@ -100,7 +100,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <h3>Account</h3>
+                        <h3 class="mgb-16">Account</h3>
                         <div>
                             <label for="name" class="d-block">
                                 Name
@@ -116,8 +116,8 @@
                     </div>
                     <div class="modal-body">
                         <h3>Verification</h3>
-                        <div class="verify-result d-flex align-items-center">
-                            <span class="material-icons">
+                        <div class="verify-result mgb-18 d-flex align-items-center">
+                            <span class="material-icons mgr-9">
                                 warning
                             </span>
                             <span class="font-bold">
@@ -142,15 +142,16 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
     </a>
-
-    <span class="material-icons">
-        search
-    </span>
-    <span class="material-icons">
-        notifications_active
-    </span>
+    <!-- Modal -->
+    <div class="admin-header-icon">
+        <span class="material-icons mgr-16">
+            search
+        </span>
+        <span class="material-icons mgr-11">
+            notifications_active
+        </span>
+    </div>
 </div>
 <table class="table table-hover table-settings">
     <thead>
