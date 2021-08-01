@@ -1,0 +1,24 @@
+.table-settings{
+    line-height: 3.4;
+    thead{
+        border-bottom: 2px solid $font-black-color;
+    }
+    tbody{
+        tr{
+            border-bottom: 1px solid #CED4DA; 
+            .modal-content{
+                max-width: 480px;
+                .admin-img{
+                    img{
+                        width: 141px;
+                        height: 141px;                    
+                    }
+                }
+                .info-verify{
+                    background-color: #F8F9FA;
+                    padding: 4px 8px;
+                }
+            }            
+        }
+    }
+}

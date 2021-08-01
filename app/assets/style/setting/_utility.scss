@@ -2,12 +2,38 @@
     font-weight: bold;
 }
 
-.cancel-btn{
-    width: 113px;
-    color: $a-hover-green;
-    border: 1px solid $a-hover-green;
+.font-gray{
+    color: $font-gray-color;
 }
 
-.success-btn{
-    width: 93px;
+.lh12{
+    line-height: 1.2;
+}
+
+.mgb-48{
+    margin-bottom: 48px;
+}
+
+.mgb-8{
+    margin-bottom: 8px;
+}
+
+.mgb-20{
+    margin-bottom: 20px;
+}
+
+.mgl-25{
+    margin-left: 25px;
+}
+
+.font-s-size{
+    font-size: $fz-s-size;
+}
+
+.pd-32{
+    padding: 32px;
+}
+
+.pdl-24{
+    padding-left: 24px;
 }
