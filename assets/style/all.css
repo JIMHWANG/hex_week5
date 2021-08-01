@@ -89,6 +89,12 @@ h5 {
 .lh12 {
   line-height: 1.2; }
 
+.mgt-4 {
+  margin-top: 4px; }
+
+.mgt-40 {
+  margin-top: 40px; }
+
 .mgb-48 {
   margin-bottom: 48px; }
 
@@ -98,8 +104,17 @@ h5 {
 .mgb-20 {
   margin-bottom: 20px; }
 
+.mgb-30 {
+  margin-bottom: 30px; }
+
+.mgl-16 {
+  margin-left: 16px; }
+
 .mgl-25 {
   margin-left: 25px; }
+
+.mgl-32 {
+  margin-left: 32px; }
 
 .font-s-size {
   font-size: 14px; }
@@ -110,8 +125,12 @@ h5 {
 .pdl-24 {
   padding-left: 24px; }
 
+.pdl-32 {
+  padding-left: 32px; }
+
 .menu-bar {
   width: 296px;
+  min-height: 960px;
   max-width: 296px;
   background-color: #F8F9FA;
   padding: 32px 113px 32px 0px; }
@@ -131,22 +150,11 @@ h5 {
     background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg); }
 
 .optionList {
-  margin-top: 40px;
-  width: inherit; }
+  width: inherit;
+  height: 77%; }
   .optionList ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     height: 260px; }
     .optionList ul li a {
-      padding-left: 32px;
       width: inherit;
       color: #000; }
     .optionList ul li a:hover {
@@ -155,24 +163,18 @@ h5 {
       font-weight: bold; }
 
 .menu-user {
-  width: inherit;
-  margin-top: 363px;
-  margin-left: 32px; }
+  width: inherit; }
   .menu-user a img {
     width: 40px;
     height: 40px;
     border-radius: 24px; }
   .menu-user .name-mail {
-    margin-left: 16px;
     height: inherit; }
     .menu-user .name-mail .username {
-      color: #000;
-      line-height: 1.18;
-      font-weight: bold; }
+      color: #000; }
     .menu-user .name-mail .usermail {
       font-size: 14px;
-      color: #6C757D;
-      margin-top: 4px; }
+      color: #6C757D; }
 
 .pages {
   width: 83%;
