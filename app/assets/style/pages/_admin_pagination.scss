@@ -1,0 +1,14 @@
+.pagination{
+    .page-item{
+        .page-link{
+            width: 32px;
+            height: 32px;
+            color: $font-black-color;
+            border: 1px solid $a-hover-green;
+        }
+        .page-link:hover{
+            background-color: $a-hover-green;
+            color: #fff;
+        }
+    }
+}
