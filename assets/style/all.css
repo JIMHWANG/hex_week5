@@ -95,6 +95,9 @@ h5 {
 .mgt-40 {
   margin-top: 40px; }
 
+.mgt-70 {
+  margin-top: 70px; }
+
 .mgr-9 {
   margin-right: 9px; }
 
@@ -151,6 +154,17 @@ h5 {
 
 .pdl-32 {
   padding-left: 32px; }
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .menu-bar {
   width: 296px;
@@ -218,6 +232,16 @@ h5 {
       .table-settings tbody tr .modal-content .info-verify {
         background-color: #F8F9FA;
         padding: 4px 8px; }
+
+.pagination .page-item .page-link {
+  width: 32px;
+  height: 32px;
+  color: #000;
+  border: 1px solid #198754; }
+
+.pagination .page-item .page-link:hover {
+  background-color: #198754;
+  color: #fff; }
 
 .header .add-admin {
   min-width: 87%; }
