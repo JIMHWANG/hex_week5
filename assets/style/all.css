@@ -194,7 +194,8 @@ h5 {
     height: 260px; }
     .optionList ul li a {
       width: inherit;
-      color: #000; }
+      color: #000;
+      border-left: 4px solid #F8F9FA; }
     .optionList ul li a:hover {
       border-left: 4px solid #198754;
       color: #198754;
